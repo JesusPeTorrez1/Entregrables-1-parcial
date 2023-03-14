@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Realizar pedido del Restaurante de comida mexicana</title>
+  <style> 
+  body{background-color:#F50087;
+       text-align: center;
+       font-size:25px;}
+ button{border-color: blueviolet;
+          color: black;
+          background-color: blueviolet;
+          width: 200px;
+          height:50px;
+          font-size: 20px;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+  </style>
+</head>
+<body>
+  <h1>Realizar pedido:</h1>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="numero">Número de Telefono:</label>
+    <input type="number" id="numero" name="numero"><br><br>
+
+    <label for="canttaco">Cantidad de tacos:</label>
+    <input type="number" id="canttaco" name="canttaco"><br><br>
+
+    <label for="guita">Guisado de tacos:</label>
+    <input type="text" id="guita" name="guita"><br><br>
+
+    <label for="canttorta">Cantidad de tortas:</label>
+    <input type="number" id="canttorta" name="canttorta"><br><br>
+
+    <label for="guito">Guisado de tacos:</label>
+    <input type="text" id="guito" name="guito"> <br><br>
+    </form>
+
+    <button onclick="location.href='confirmado.html'">Ordenar pedido</button>
+
+  </body>
+  </html>
